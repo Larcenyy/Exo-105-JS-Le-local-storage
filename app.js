@@ -1,9 +1,12 @@
 
-
-let myArray = "[2, 5 ,6]";
+let myArray = function (nom, prenom){
+    this.test = nom,
+    this.test = prenom;
+}
 
 const storage = window.localStorage;
 storage.setItem('key', "Material")
+storage.setItem('Table', "myArray")
 storage.setItem('number', 18)
 storage.setItem('color', "yellow")
 
